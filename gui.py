@@ -22,7 +22,7 @@
 #                 > [Name of the project folder] = [Project Name]
 #                 > Naming format: Cat_01.jpg, Dog_006.png, Hello_001.wav, Hello_07.mp3 ...
 #                 > Supported file types: jpg, png, wav, mp3
-#                 > Start the Emotive app and connect the headset to the PC via Bluetooth
+#                 > Start the Emotiv app and connect the headset to the PC via Bluetooth
 #                 > Run the `Brain Download` GUI and press the `start` button
 #                 > Adjust the headset so that the Contact Quality is above 95%
 #                 > If needed use Emotive App's Contact Quality window to visualize individual electrodes
@@ -33,19 +33,19 @@
 #                 > While recording press `Cancel` to terminate a recording, the recorded data will not be saved
 #
 #   Experiments   > Random image persentation
-#                   > If needed change the data composition by changeing the image count
+#                   > If needed change the data composition by changing the image count
 #                 > Random Audio playing              
 #                 > Left-Right Arrow Images
-#                   > This type of imagesets should contain multiple classes of arrows and a single center image named as 'Center_001.JPG'
-#                   > The GUI recognized this project by the phrase 'Arrow' in the folder name
-#                   > The center image will be shown before every image
+#                   > This type of image-sets should contain multiple classes of arrows and a single center image named as 'Center_001.JPG'
+#                   > The GUI will recognize this project by the word 'Arrow' in the folder name
+#                   > The center image will be shown before every arrow image
 #                 > Visual Q&A
-#                   > This kind of image-set should contain images form multiple classes Eg. 10 classes
-#                   > The GUI recognize this type of image-set by the phrase 'Q&A' in the folder name
-#                   > GUI will add a '?' to every class name and generate a question list Eg.for 10 classes -> 10 questions
-#                   > When showing an image, a  question is asked above the image to get a 'YES', 'NO' responce from the subject
-#                   > For 10 classes the program can ask 1 'YES' responce question to 9 'NO' responce questions 
-#                   > But Asking the correct and incorrect question probability is set to 50%
+#                   > This kind of image-set should contain images form multiple classes
+#                   > The GUI recognize this type of image-set by the word 'Q&A' in the folder name
+#                   > GUI will add a question mark (?) to every class name and generate a question list. Eg:for 10 classes -> 10 questions
+#                   > When showing an image, a question is asked above the image to get a 'YES', 'NO' responce from the subject
+#                   > For 10 class image set, the program can ask 1 'YES' answerable question to 9 'NO' answerable questions 
+#                   > But, asking a correct and incorrect question probability is set to 50%
 #
 #   Limitations : > Projects of mixed audio and images does not support
 
