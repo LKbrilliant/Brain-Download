@@ -1,11 +1,3 @@
-*.csv
-*.png
-*.jpg
-*.jpeg
-*.mp3
-*.wav
-*.lnk
-*.bat
 debug.log
 
 # Byte-compiled / optimized / DLL files
