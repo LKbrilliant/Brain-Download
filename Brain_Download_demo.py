@@ -10,28 +10,7 @@
 #   Description :   Record and save raw EEG data extracted from 5 channel Emotiv Insight headset while
 #                   displaying images or playing audio clips of multiple object classes.
 #                   Saved records contain... 
-#
-#   Requirements: > Emotiv Apps need to be installed
-#                 > A lLicense which allow exporting raw EEG data
-#                 > The 'License-Key' (To access the SDK using the license, a request application need to be submitted) 
-#                 > 'Client-ID' and 'Secret' from a Cortex App which created at the Emotiv website
-#                 > Internet Connection
-#
-#   Instructions: > Add the 'Client-ID', 'Secret' and the SDK access enabled 'License-key' to the credentials.py
-#                 > To create a new project, add image or audio files into a new folder inside the 'Data' directory
-#                 > [Name of the project folder] = [Project Name]
-#                 > Naming format: Cat_01.jpg, Dog_006.png, Hello_001.wav, Hello_07.mp3 ...
-#                 > Supported file types: jpg, png, wav, mp3
-#                 > Start the Emotive app and connect the headset to the PC via Bluetooth
-#                 > Run the `Brain Download` GUI and press the `start` button
-#                 > Adjust the headset so that the Contact Quality is above 95%
-#                 > If needed use Emotive App's Contact Quality window to visualize individual electrodes
-#                 > Select a Project and enter the subject's name, then press `Start Recording`
-#                 > The recording will automatically stop after a 'interval + interval * count' number of seconds
-#                 > The data will be saved as .CSV inside the 'Records' folder under the subject's name
-#                 > Record name: [projectName]_[interval]sx[count]_[DATE]-[TIME].csv
-#                 > While recording press `Cancel` to terminate a recording, the recorded data will not be saved
-#
+
 #   Experiments   > Random image persentation
 #                   > If needed change the data composition by changeing the image count
 #                 > Random Audio playing              
